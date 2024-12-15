@@ -4,19 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página Institucional Genérica</title>
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/globalStyles.css">
+    <link rel="stylesheet" href="src/styles/index.css">
   </head>
   <body>
     <!-- ====== Header ====== -->
-    <header>
-      <div>
-        <img src="" alt="" />
+    <header class="header">
+      <div class="header_items">
+        <img src="src/assets/logo.svg" alt="Logo" />
         <button>Entrar para próxima turma</button>
       </div>
     </header>
     <main>
       <!-- ====== Section Banner ====== -->
-      <section>
-        <div>
+      <section class="section_1">
+        <div class="section_1__items">
           <h1>Desenvolvendo <span>suas</span> próximas habilidades</h1>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -28,8 +31,8 @@
       </section>
 
       <!-- ====== Section About ====== -->
-      <section>
-        <div>
+      <section class="section_2">
+        <div class="section_2__items">
           <h2>Quem somos nós?</h2>
           <p>
             It is a long established fact that a reader will be distracted by
@@ -41,11 +44,11 @@
       </section>
 
       <!-- ====== Section FAQ ====== -->
-      <section>
+      <section class="section_3">
         <div>
           <!-- LEFT SIDE -->
-          <div>
-            <div>
+          <div class="section_3__left_side">
+            <div class="section_3__left_side__items">
               <h2>Dúvidas frequentes</h2>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -56,9 +59,9 @@
             </div>
           </div>
           <!-- RIGHT SIDE -->
-          <ul>
+          <ul class="section_3__right_side">
             <!-- Question 1 -->
-            <li>
+            <li class="section_3__right_side__items">
               <h3>Quais matérias vou pagar?</h3>
               <p>
                 It is a long established fact that a reader will be distracted
@@ -68,7 +71,7 @@
               </p>
             </li>
             <!-- Question 2 -->
-            <li>
+            <li class="section_3__right_side__items">
               <h3>Tenho direito à cancelamento?</h3>
               <p>
                 It is a long established fact that a reader will be distracted
@@ -78,7 +81,7 @@
               </p>
             </li>
             <!-- Question 3 -->
-            <li>
+            <li class="section_3__right_side__items">
               <h3>O acesso do curso é vitalício?</h3>
               <p>
                 It is a long established fact that a reader will be distracted
@@ -88,7 +91,7 @@
               </p>
             </li>
             <!-- Question 4 -->
-            <li>
+            <li class="section_3__right_side__items">
               <h3>O acesso do curso é vitalício?</h3>
               <p>
                 It is a long established fact that a reader will be distracted
@@ -102,11 +105,11 @@
       </section>
 
       <!-- ====== Section Comments ====== -->
-      <section>
+      <section class="comments_section">
         <div>
           <!-- RIGHT SIDE -->
-          <div>
-            <div>
+          <div class="comments_section__right_side">
+            <div class="comments_section__right_side__items">
               <h2>O que nossos alunos comentam?</h2>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -116,10 +119,10 @@
             </div>
           </div>
           <!-- LEFT SIDE -->
-          <ul>
+          <ul class="comments_section__left_side">
             <!-- Comment 1 -->
-            <li>
-              <div>
+            <li class="comments_section__left_side__item">
+              <div class="comment-name">
                 <h3>Júlia Lima</h3>
                 <p>Aluna na turma 2019</p>
               </div>
@@ -131,8 +134,8 @@
               </p>
             </li>
             <!-- Comment 2 -->
-            <li>
-              <div>
+            <li class="comments_section__left_side__item">
+              <div class="comment-name">
                 <h3>Carlos Ino</h3>
                 <p>Aluno na turma 2020</p>
               </div>
@@ -144,8 +147,8 @@
               </p>
             </li>
             <!-- Comment 3 -->
-            <li>
-              <div>
+            <li class="comments_section__left_side__item">
+              <div class="comment-name">
                 <h3>Camila Dias</h3>
                 <p>Aluna na turma 2019</p>
               </div>
@@ -157,8 +160,8 @@
               </p>
             </li>
             <!-- Comment 4 -->
-            <li>
-              <div>
+            <li class="comments_section__left_side__item">
+              <div class="comment-name">
                 <h3>João Vaz</h3>
                 <p>Aluno na turma 2019</p>
               </div>
@@ -170,8 +173,8 @@
               </p>
             </li>
             <!-- Comment 5 -->
-            <li>
-              <div>
+            <li class="comments_section__left_side__item">
+              <div class="comment-name">
                 <h3>Gio Oliveira</h3>
                 <p>Aluna na turma 2019</p>
               </div>
@@ -188,8 +191,8 @@
     </main>
 
     <!-- ====== Footer ====== -->
-    <footer>
-      <img src="" alt="" />
+    <footer class="footer">
+      <img src="src/assets/logo.svg" alt="Logo" />
     </footer>
 
     <!-- ====== Modal ====== -->

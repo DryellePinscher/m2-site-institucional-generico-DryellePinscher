@@ -1,0 +1,17 @@
+:root {
+    --cor-titulo-primaria: #F8F9FA;
+    --cor-titulo-secundaria: #EDF2FF;
+    --cor-paragrafo-primaria: #ADB5BD;
+    --cor-paragrafo-secundaria: #CED4DA;
+    --cor-enfase: #364FC7;
+    --background-color-primaria: #191C1F;
+    --background-color-secundaria: #212529;
+    --background-color-button: #4C6EF5;
+    --background-color-button-modal: #343A40;
+    --font-title1: 52px;
+    --font-title2: 40px;
+    --font-title3: 32px;
+    --font-text1: 20px;
+    --font-text2: 18px;
+    --font-text3: 16px;    
+}
